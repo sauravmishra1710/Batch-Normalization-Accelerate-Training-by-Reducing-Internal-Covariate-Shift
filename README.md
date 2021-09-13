@@ -1,9 +1,16 @@
-# Batch Normalization : Accelerate Training by Reducing Internal Covariate Shift
+# Batch Normalization : Internal Covariate Shift
 
-**Original Paper @** https://arxiv.org/abs/1502.03167
+This repository discusses the following two papers on Batch Normalization - 
 
-**Paper Summary :** 
+[1] **Batch Normalization: Accelerate Training by Reducing Internal Covariate Shift**<br>
+Paper Link @ https://arxiv.org/abs/1502.03167
 
+[2] **How Does Batch Normalization Help Optimization?**<br>
+Paper Link @ https://arxiv.org/abs/1805.11604
+
+A high level paper summary of both the papers are discussed below - 
+
+## Batch Normalization: Accelerate Training by Reducing Internal Covariate Shift
 One complication with training deep neural networks is always related to the distribution of inputs. The distribution of input to each layer changes during the training phase since the parameters of the layers change. This phenomenon is known as ***INTERNAL CO-VARIATE SHIFT*** and is known to slow down the learning process. 
 
 **Batch Normalization** is a technique to reduce the internal co-variate shift and improve the training speed, performance and stability of deep neural networks. Batch Normalization make normalization a part of the model architecture and considers normalization for each ***mini-batch*** during the training phase. 
@@ -15,3 +22,4 @@ Batch Normalization advantages -
 - Attempts to solve the vanishing gradient problem.
 - Makes the network more stable to the initialization of the weights.
 
+## How Does Batch Normalization Help Optimization?
