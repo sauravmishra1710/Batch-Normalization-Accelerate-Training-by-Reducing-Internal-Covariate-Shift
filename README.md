@@ -23,3 +23,5 @@ Batch Normalization advantages -
 - Makes the network more stable to the initialization of the weights.
 
 ## How Does Batch Normalization Help Optimization?
+
+This paper discusses more in detail of how the batch normalization works. The authors point that input distributions of layer inputs has little to do with the success of BatchNorm.  Instead, a more fundamental impact of Batch Normalization on the training process is that it **makes the optimization landscape significantly smoother**. This smoothness induces a more predictive and stable behavior of the gradients, allowing for faster training.
